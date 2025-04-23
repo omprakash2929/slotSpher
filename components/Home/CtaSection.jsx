@@ -17,16 +17,16 @@ const CtaSection = () => {
           </p>
 
           <div className="space-y-4 ">
-            <div className="space-x-4">
+            <div className="flex flex-col md:justify-normal items-center md:items-start justify-center md:flex-row md:space-x-4 gap-3">
               <Button
                 size="lg"
-                className="w-full cursor-pointer sm:w-auto h-12 px-8 bg-slate-900 hover:bg-slate-800 text-white"
+                className="w-[70%] cursor-pointer sm:w-auto h-12 px-8 bg-slate-900 hover:bg-slate-800 text-white"
               >
                 Get started for free
               </Button>
               <Button
                 size="lg"
-                className="w-full cursor-pointer sm:w-auto h-12 px-8 bg-slate-900 hover:bg-slate-800 text-white"
+                className="w-[70%] cursor-pointer sm:w-auto h-12 px-8 bg-slate-900 hover:bg-slate-800 text-white"
               >
                 Sing up with Google
               </Button>

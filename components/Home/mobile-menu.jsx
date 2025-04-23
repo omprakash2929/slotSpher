@@ -45,21 +45,21 @@ export function MobileMenu() {
               Home
             </Link>
             <Link
-              href="#"
+              href="/pricing"
               className="text-gray-700 hover:text-gray-900 py-2 text-center font-medium text-lg"
               onClick={() => setIsOpen(false)}
             >
               Pricing
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="text-gray-700 hover:text-gray-900 py-2 text-center font-medium text-lg"
               onClick={() => setIsOpen(false)}
             >
               Contact
             </Link>
             <Link
-              href="#"
+              href="/faq"
               className="text-gray-700 hover:text-gray-900 py-2 text-center font-medium text-lg"
               onClick={() => setIsOpen(false)}
             >
