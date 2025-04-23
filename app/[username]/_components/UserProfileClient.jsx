@@ -13,7 +13,7 @@ export default function UserProfileClient({ username }) {
             pageView(username);
             hasCountedRef.current = true;
           }
-    }, [username]);
+    }, [username,pageView]);
 
   return (
     <div>

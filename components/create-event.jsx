@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Button } from "./ui/button";
 import { useSearchParams, useRouter } from "next/navigation";
 import EventForm from "./event-Form";
 import {
@@ -36,7 +35,7 @@ const CreateEventDrawer = () => {
         <DialogHeader>
           <DialogTitle>Create New Event</DialogTitle>
           <DialogDescription>
-            Fill in the details to create a new event. Click save when you're
+            Fill in the details to create a new event. Click save when you&apos;re
             done.
           </DialogDescription>
         </DialogHeader>

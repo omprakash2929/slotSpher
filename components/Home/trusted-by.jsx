@@ -16,7 +16,7 @@ export default function TrustedBy() {
     <section className="py-12 border-y border-slate-200">
       <div className="container px-4 md:px-6 mx-auto">
         <p className="text-center text-slate-600 mb-8">
-          Trusted by more than <span className="font-semibold">150,000</span> of the world's leading organizations
+          Trusted by more than <span className="font-semibold">150,000</span> of the world&apos;s leading organizations
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center justify-items-center">

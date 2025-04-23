@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";
 import Link from "next/link";
-export default function EventsPage(params) {
+export default function EventsPage() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Evets />

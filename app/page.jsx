@@ -44,7 +44,7 @@ const features = [
               </h1>
               <p className="text-xl text-slate-600 max-w-[600px]">
                 Join over 30 million professionals who streamline their meetings
-                with the world's #1 scheduling platform.
+                with the world&apos;s #1 scheduling platform.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 mt-2">
@@ -169,7 +169,7 @@ const features = [
                 <span className="text-2xl font-bold text-primary">3</span>
               </div>
               <h3 className="text-xl font-semibold mb-3">Get booked</h3>
-              <p className="text-slate-600">Invitees select a time and the event is added to everyone's calendars.</p>
+              <p className="text-slate-600">Invitees select a time and the event is added to everyone&apos;s calendars.</p>
             </div>
           </div>
         </div>

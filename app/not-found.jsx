@@ -34,7 +34,7 @@ export default function NotFound() {
         <h2 className="mb-6 text-2xl font-semibold tracking-tight md:text-3xl animate-fade-in">Page not found</h2>
 
         <p className="mb-8 max-w-md mx-auto text-muted-foreground animate-fade-in-delay">
-          Oops! The page you're looking for seems to have wandered off into the digital wilderness.
+          Oops! The page you&apos;re looking for seems to have wandered off into the digital wilderness.
         </p>
 
         <Button asChild className="animate-pulse-slow">

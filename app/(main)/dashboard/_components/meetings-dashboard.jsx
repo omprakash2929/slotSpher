@@ -1,11 +1,8 @@
 "use client"
 import React from 'react'
-import { Button } from "@/components/ui/button"
-import { Card, CardContent,CardHeader,CardTitle } from "@/components/ui/card"
-import { Calendar, CircleUser, Clock, Video } from "lucide-react"
-import Link from "next/link"
+import { Card, CardContent,CardHeader } from "@/components/ui/card"
+import { Calendar, Clock } from "lucide-react"
 import {format} from "date-fns"
-import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 
 const MeetingDashboard = ({ title,dateTime,name }) => {
   return (

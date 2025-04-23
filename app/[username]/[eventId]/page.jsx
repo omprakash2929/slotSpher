@@ -3,7 +3,7 @@ import { getEventDetails } from '@/actions/events';
 import React, { Suspense } from 'react'
 import { EventDetails } from './_components/event-details';
 import BookingForm from './_components/booking-form';
-import BookingWrapper, { BookingProvider } from './context/BookingContext';
+import  { BookingProvider } from './context/BookingContext';
 
 
 

@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import Footersec from "@/components/Home/Footersec";
 import CreateEventDrawer from "@/components/create-event";
 

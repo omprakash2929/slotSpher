@@ -6,7 +6,7 @@ import React from "react";
 
 
 export  const Usermenu = () => {
-  const { user, isLoaded } = useUser();
+  const { user } = useUser();
   console.log( user?.username)
   return (
     <UserButton

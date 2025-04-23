@@ -1,9 +1,5 @@
 import React, { Suspense } from 'react'
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Calendar, Clock, User, Video } from "lucide-react"
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { getUserMeetings } from '@/actions/meetings'
 import MeetingList from './_components/meeting-list'
 

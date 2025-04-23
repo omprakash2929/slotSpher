@@ -17,7 +17,7 @@ export default function FAQ() {
         {
           question: "How do I create an account?",
           answer:
-            "To create an account, click on the 'Get started for free' button on our homepage. You can sign up using your Google account, Microsoft account, or email address. Follow the prompts to complete your profile setup.",
+            "To create an account, click on the &apos;Get started for free&apos; button on our homepage. You can sign up using your Google account, Microsoft account, or email address. Follow the prompts to complete your profile setup.",
         },
         {
           question: "Is there a free plan available?",
@@ -27,12 +27,12 @@ export default function FAQ() {
         {
           question: "How do I set up my first event type?",
           answer:
-            "After signing in, go to the 'Event Types' section and click 'Create New Event Type'. You'll be able to set the event name, duration, location (virtual or physical), and availability. You can also customize the booking form and add buffer times.",
+            "After signing in, go to the &apos;Event Types&apos; section and click &apos;Create New Event Type&apos;. You&apos;ll be able to set the event name, duration, location (virtual or physical), and availability. You can also customize the booking form and add buffer times.",
         },
         {
           question: "Can I import my existing calendar?",
           answer:
-            "Yes, Schedulr integrates with Google Calendar, Microsoft Outlook, Apple Calendar, and other popular calendar services. During setup, you'll be prompted to connect your calendars to avoid double-bookings.",
+            "Yes, Schedulr integrates with Google Calendar, Microsoft Outlook, Apple Calendar, and other popular calendar services. During setup, you&apos;ll be prompted to connect your calendars to avoid double-bookings.",
         },
       ],
     },
@@ -42,22 +42,22 @@ export default function FAQ() {
         {
           question: "How do I change my time zone?",
           answer:
-            "Go to 'Settings' > 'General' and select your time zone from the dropdown menu. Schedulr will automatically adjust all your event times to match your selected time zone.",
+            "Go to &apos;Settings&apos; > &apos;General&apos; and select your time zone from the dropdown menu. Schedulr will automatically adjust all your event times to match your selected time zone.",
         },
         {
           question: "Can I customize my booking page?",
           answer:
-            "Yes, on the Professional and Teams plans, you can customize your booking page with your logo, brand colors, and custom text. Go to 'Settings' > 'Branding' to make these changes.",
+            "Yes, on the Professional and Teams plans, you can customize your booking page with your logo, brand colors, and custom text. Go to &apos;Settings&apos; > &apos;Branding&apos; to make these changes.",
         },
         {
           question: "How do I add team members?",
           answer:
-            "On the Teams plan, go to 'Settings' > 'Team' and click 'Invite Team Member'. Enter their email address and select their role. They'll receive an invitation to join your team.",
+            "On the Teams plan, go to &apos;Settings&apos; > &apos;Team&apos; and click &apos;Invite Team Member&apos;. Enter their email address and select their role. They&apos;ll receive an invitation to join your team.",
         },
         {
           question: "How do I cancel my subscription?",
           answer:
-            "Go to 'Settings' > 'Billing' and click 'Cancel Subscription'. You can continue using your current plan until the end of your billing period. After that, your account will be downgraded to the Basic plan.",
+            "Go to &apos;Settings&apos; > &apos;Billing&apos; and click &apos;Cancel Subscription&apos;. You can continue using your current plan until the end of your billing period. After that, your account will be downgraded to the Basic plan.",
         },
       ],
     },
@@ -72,17 +72,17 @@ export default function FAQ() {
         {
           question: "Can I set buffer times between meetings?",
           answer:
-            "Yes, you can set buffer times before and/or after your meetings. Go to your event type settings and adjust the 'Buffer Time' options to add breathing room between appointments.",
+            "Yes, you can set buffer times before and/or after your meetings. Go to your event type settings and adjust the &apos;Buffer Time&apos; options to add breathing room between appointments.",
         },
         {
           question: "How do I set up recurring meetings?",
           answer:
-            "When creating or editing an event type, enable the 'Recurring Meeting' option. You can then set the frequency (daily, weekly, monthly) and other parameters for your recurring meetings.",
+            "When creating or editing an event type, enable the &apos;Recurring Meeting&apos; option. You can then set the frequency (daily, weekly, monthly) and other parameters for your recurring meetings.",
         },
         {
           question: "Can invitees reschedule or cancel meetings?",
           answer:
-            "Yes, invitees receive confirmation emails with links to reschedule or cancel. You can customize these options in your event type settings under 'Cancellation Policy'.",
+            "Yes, invitees receive confirmation emails with links to reschedule or cancel. You can customize these options in your event type settings under &apos;Cancellation Policy&apos;.",
         },
       ],
     },
@@ -97,12 +97,12 @@ export default function FAQ() {
         {
           question: "Can I change plans at any time?",
           answer:
-            "Yes, you can upgrade, downgrade, or cancel your plan at any time from 'Settings' > 'Billing'. When upgrading, you'll be charged the prorated difference. When downgrading, your new plan will take effect at the end of your current billing cycle.",
+            "Yes, you can upgrade, downgrade, or cancel your plan at any time from &apos;Settings&apos; > &apos;Billing&apos;. When upgrading, you&apos;ll be charged the prorated difference. When downgrading, your new plan will take effect at the end of your current billing cycle.",
         },
         {
           question: "Do you offer refunds?",
           answer:
-            "We offer a 30-day money-back guarantee for annual subscriptions. Monthly subscriptions can be canceled at any time, but we don't provide partial refunds for unused time.",
+            "We offer a 30-day money-back guarantee for annual subscriptions. Monthly subscriptions can be canceled at any time, but we don&apos;t provide partial refunds for unused time.",
         },
         {
           question: "Is there special pricing for nonprofits or educational institutions?",
@@ -139,7 +139,7 @@ export default function FAQ() {
                 Frequently Asked <span className="text-primary">Questions</span>
               </h1>
               <p className="text-xl text-slate-600 max-w-2xl mb-8">
-                Find answers to common questions about Schedulr. Can't find what you're looking for?
+                Find answers to common questions about Schedulr. Can&apos;t find what you&apos;re looking for?
               </p>
               <Button asChild className="mb-8">
                 <Link href="/contact">Contact Support</Link>
@@ -180,7 +180,7 @@ export default function FAQ() {
               <div className="text-center py-12">
                 <h3 className="text-xl font-semibold mb-2">No results found</h3>
                 <p className="text-slate-600 mb-6">
-                  We couldn't find any FAQs matching your search. Try different keywords or browse all categories.
+                  We couldn&apos;t find any FAQs matching your search. Try different keywords or browse all categories.
                 </p>
                 <Button variant="outline" onClick={() => setSearchQuery("")}>
                   Clear search

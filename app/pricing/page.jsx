@@ -187,7 +187,7 @@ export default function Pricing() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold tracking-tight text-slate-900 mb-4">Compare all features</h2>
               <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-                A detailed breakdown of what's included in each plan
+                A detailed breakdown of what&apos;s included in each plan
               </p>
             </div>
 

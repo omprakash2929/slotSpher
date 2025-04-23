@@ -32,8 +32,10 @@ export default function Contact() {
                 Get in <span className="text-primary">touch</span>
               </h1>
               <p className="text-xl text-slate-600 max-w-2xl">
-                Have questions about our product, pricing, or need help? We're here to assist you.
-              </p>
+  Have questions about our product, pricing, or need help? We&apos;re here to assist you.
+</p>
+
+
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
@@ -46,7 +48,7 @@ export default function Contact() {
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Message Sent!</h3>
                     <p className="text-slate-600 mb-6">
-                      Thank you for reaching out. We'll get back to you as soon as possible.
+                      Thank you for reaching out. We&apos;ll get back to you as soon as possible.
                     </p>
                     <Button onClick={() => setFormSubmitted(false)}>Send another message</Button>
                   </CardContent>
@@ -55,8 +57,9 @@ export default function Contact() {
                     <CardHeader>
                       <CardTitle>Send us a message</CardTitle>
                       <CardDescription>
-                        Fill out the form below and we'll get back to you within 24 hours.
-                      </CardDescription>
+  Fill out the form below and we&apos;ll get back to you within 24 hours.
+</CardDescription>
+
                     </CardHeader>
                     <CardContent>
                       <form onSubmit={handleSubmit} className="space-y-6">
@@ -120,7 +123,7 @@ export default function Contact() {
               {/* Contact Information */}
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
+                  <h3 className="text-xl font-semibold mb-4">Contact  Information</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
                       <Mail className="h-5 w-5 text-primary mt-1" />
@@ -168,6 +171,8 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Frequently Asked Questions</h3>
                   <p className="text-slate-600 mb-4">Find quick answers to common questions in our FAQ section.</p>
+
+
                   <Button variant="outline" asChild>
                     <Link href="/faq">View FAQ</Link>
                   </Button>

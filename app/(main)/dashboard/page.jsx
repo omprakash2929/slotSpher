@@ -45,7 +45,7 @@ export default function Dashboard() {
   
   useEffect(() => {
     setValue("username", user?.username);
-  }, [isLoaded, user]);
+  }, [isLoaded, user,setValue]);
   const onSubmit = async (data) => {
     await fnUpdateUsername(data.username);
   };
@@ -54,7 +54,6 @@ export default function Dashboard() {
   const {
     data: dataEvent,
     loadingEvents,
-    errorEvents,
     fn: fnGetUserEvenets,
   } = useFetch(getUserEvents);
 
@@ -85,9 +84,7 @@ export default function Dashboard() {
     (async () => await fnTotalBooking())();
     (async () => await fnTotalView())();
     (async () => await fnGetUserEvenets())();
-  }, []);
-
-  console.log(dataEvent);
+  }, [fnUpdates,fnTotalEvent,fnTotalBooking,fnTotalView,fnGetUserEvenets]);
 
   return (
     <div className="space-y-6">
@@ -197,6 +194,7 @@ export default function Dashboard() {
                   <div className="space-y-4">
                     {upcomingMeetings?.map((meeting) => (
                       <MeetingDashboard
+                        key={meeting.id}
                         title={meeting.event.title}
                         name={meeting.name}
                         dateTime={meeting.startTime}
