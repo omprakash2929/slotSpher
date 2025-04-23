@@ -30,7 +30,7 @@ export default function Terms() {
             <li>Use the materials for any commercial purpose not authorized by SlotSphere</li>
             <li>Attempt to decompile or reverse engineer any software contained on SlotSphere&apos;s platform</li>
             <li>Remove any copyright or other proprietary notations from the materials</li>
-            <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+            <li>Transfer the materials to another person or &quot;mirror&quot; the materials on any other server</li>
           </ul>
         </section>
 
@@ -121,7 +121,7 @@ export default function Terms() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4">9. Disclaimer</h2>
           <p>
-            The platform is provided on an "AS IS" and "AS AVAILABLE" basis. SlotSphere expressly disclaims all
+            The platform is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. SlotSphere expressly disclaims all
             warranties of any kind, whether express or implied, including but not limited to the implied warranties of
             merchantability, fitness for a particular purpose, and non-infringement.
           </p>
@@ -139,7 +139,7 @@ export default function Terms() {
           <h2 className="text-xl font-semibold mb-4">11. Changes to Terms</h2>
           <p>
             We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide
-            notice of any changes by posting the new Terms on this page and updating the "Last Updated" date. Your
+            notice of any changes by posting the new Terms on this page and updating the &quot;Last Updated&quot; date. Your
             continued use of the platform after any such changes constitutes your acceptance of the new Terms.
           </p>
         </section>
@@ -151,7 +151,7 @@ export default function Terms() {
             <br />
             Email: om.prakashchauhan2929@gmail.com
             <br />
-            Address:Ahmedabad, gujarat, india - 382470 
+            Address: Ahmedabad, Gujarat, India - 382470
           </p>
         </section>
       </div>
