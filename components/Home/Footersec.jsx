@@ -131,10 +131,10 @@ const Footersec = () => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div>© {new Date().getFullYear()} SlotSphere. All rights reserved.</div>
               <div className="flex gap-6">
-                <Link href="#" className="hover:text-white">
+                <Link href="/terms" className="hover:text-white">
                   Terms
                 </Link>
-                <Link href="#" className="hover:text-white">
+                <Link href="/privacy-policy" className="hover:text-white">
                   Privacy
                 </Link>
                 <Link href="#" className="hover:text-white">
