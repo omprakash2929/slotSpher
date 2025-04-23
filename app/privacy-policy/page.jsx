@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4">1. Introduction</h2>
           <p>
-            Welcome to SlotSphere ("we," "our," or "us"). We respect your privacy and are committed to protecting your
+            Welcome to SlotSphere (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We respect your privacy and are committed to protecting your
             personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information
             when you use our scheduling platform.
           </p>
@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
             <li>Data portability</li>
             <li>Withdrawing consent at any time (where processing is based on consent)</li>
           </ul>
-          <p>To exercise these rights, please contact us using the information provided in the "Contact Us" section.</p>
+          <p>To exercise these rights, please contact us using the information provided in the &quot;Contact Us&quot; section.</p>
         </section>
 
         <section className="mb-8">
@@ -124,7 +124,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-xl font-semibold mb-4">9. Changes to This Privacy Policy</h2>
           <p>
             We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new
-            Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy
+            Privacy Policy on this page and updating the &quot;Last Updated&quot; date. You are advised to review this Privacy
             Policy periodically for any changes.
           </p>
         </section>
@@ -136,7 +136,7 @@ export default function PrivacyPolicy() {
             <br />
             Email: om.prakash2929@gmail.com
             <br />
-            Address:Ahmedabad, gujarat, india - 382470
+            Address: Ahmedabad, Gujarat, India - 382470
           </p>
         </section>
       </div>
