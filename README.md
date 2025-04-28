@@ -3,7 +3,7 @@
 
 📹 [Watch Demo](https://youtu.be/5tdAVeLTeyY)
 =======
-# Full Stack Scheduling Booking app with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, Shadcn UI Tutorial 🔥🔥
+# Full Stack Scheduling Booking app with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, Shadcn UI  🔥🔥
 
 
 ## 🚀 Overview
